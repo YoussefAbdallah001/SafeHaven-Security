@@ -1,0 +1,45 @@
+#kkk{
+    position: fixed;
+    display:none;
+    right: 10px;
+    bottom: 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: blue;
+    border: solid 1px blue;
+    cursor: pointer;
+    font-size: xx-large;
+    text-align: center;
+}
+#testimonials {
+    background-color: #f8f9fa;
+}
+
+.testimonial {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.carousel-inner {
+    max-width: 700px;
+    margin: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #007bff;
+}
